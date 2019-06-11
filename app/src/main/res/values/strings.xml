@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">jhtest</string>
+    <string name="button02">Button</string>
+    <string name="text02">서브 페이지</string>
+</resources>
