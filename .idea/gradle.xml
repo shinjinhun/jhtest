@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/cameraexample" />
+            <option value="$PROJECT_DIR$/customnaviexample" />
             <option value="$PROJECT_DIR$/listexample01" />
             <option value="$PROJECT_DIR$/naviexample" />
             <option value="$PROJECT_DIR$/sharedexample" />
