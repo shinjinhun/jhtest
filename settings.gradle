@@ -1,1 +1,1 @@
-include ':app', ':listexample01', ':naviexample', ':sharedexample', ':webviewexample', ':customnaviexample', ':cameraexample', ':recyclerviewexample', ':recyclerviewexample2'
+include ':app', ':listexample01', ':naviexample', ':sharedexample', ':webviewexample', ':customnaviexample', ':cameraexample', ':recyclerviewexample'
