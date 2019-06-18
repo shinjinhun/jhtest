@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="test">
+        <item>홍드로이드1</item>
+        <item>홍드로이드2</item>
+        <item>홍드로이드3</item>
+        <item>홍드로이드4</item>
+    </string-array>
+</resources>
