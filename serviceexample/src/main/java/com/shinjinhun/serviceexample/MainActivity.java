@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-// Service 백그라운드 음악 재생
+// #17 ( Service 백그라운드 음악 재생 )
+// 앱을 종료해도 음악이 재생이 됨.
 public class MainActivity extends AppCompatActivity {
 
     Button btn_start, btn_stop;

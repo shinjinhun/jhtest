@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 // #22 (음악재생 mp3)
+// 앱을 종료하면 재생 중지됨 ( #17과 serviceexample 차이점 )
 public class MainActivity extends AppCompatActivity {
 
     Button btn_play, btn_stop;
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
 
-        // 미디어 플레이어가 실행중이 아닐때 자원을 초기화 시키는게 좋음음
+        // 미디어 플레이어가 실행중이 아닐때 자원을 초기화 시키는게 좋음
         if (mediaPlayer != null) {
             mediaPlayer.release();
             mediaPlayer = null;
