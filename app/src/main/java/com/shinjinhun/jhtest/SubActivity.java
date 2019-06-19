@@ -40,6 +40,7 @@ public class SubActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(SubActivity.this, MainActivity.class);
                 startActivity(intent);
+                finish(); // SubActivity 종료
 
 
             }

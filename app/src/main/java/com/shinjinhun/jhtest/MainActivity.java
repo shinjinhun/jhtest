@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("str",str);
 
                 startActivity(intent);
+                finish();   // MainActivity 종료
             }
         });
 
