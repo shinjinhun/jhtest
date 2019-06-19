@@ -3,24 +3,25 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/backbuttonexample" />
             <option value="$PROJECT_DIR$/cameraexample" />
             <option value="$PROJECT_DIR$/customnaviexample" />
             <option value="$PROJECT_DIR$/dialogexample" />
             <option value="$PROJECT_DIR$/googlemapexample" />
             <option value="$PROJECT_DIR$/listexample01" />
+            <option value="$PROJECT_DIR$/loadinganimationexample" />
+            <option value="$PROJECT_DIR$/musicplayerexample" />
             <option value="$PROJECT_DIR$/naviexample" />
             <option value="$PROJECT_DIR$/recyclerviewexample" />
             <option value="$PROJECT_DIR$/serviceexample" />
             <option value="$PROJECT_DIR$/sharedexample" />
+            <option value="$PROJECT_DIR$/spinnerexample" />
             <option value="$PROJECT_DIR$/threadexample" />
             <option value="$PROJECT_DIR$/vidiorecordexample" />
             <option value="$PROJECT_DIR$/webviewexample" />
