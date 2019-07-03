@@ -32,12 +32,19 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView.setAdapter(mainAdapter);
 
+
+        MainData mainData = new MainData(R.mipmap.ic_launcher,"홍드로이드" + arrayList.size(),"리사이클러뷰"  + arrayList.size());
+        arrayList.add(mainData);
+        mainAdapter.notifyDataSetChanged(); // 새로고침침
+
+
         Button btn_add = (Button)findViewById(R.id.btn_add);
 
+        // 추가 버튼 클릭시 리사이클 추가하기
         btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainData mainData = new MainData(R.mipmap.ic_launcher,"홍드로이드1","리사이클러뷰1");
+                MainData mainData = new MainData(R.mipmap.ic_launcher,"홍드로이드" + arrayList.size(),"리사이클러뷰"  + arrayList.size());
                 arrayList.add(mainData);
                 mainAdapter.notifyDataSetChanged(); // 새로고침침
 

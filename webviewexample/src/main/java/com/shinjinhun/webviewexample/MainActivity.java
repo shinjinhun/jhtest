@@ -11,7 +11,7 @@ import android.webkit.WebViewClient;
 public class MainActivity extends AppCompatActivity {
 
     private WebView webView;
-    private String url = "https://www.google.com";
+    private String url = "https://www.google.com/search?q=학교";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
