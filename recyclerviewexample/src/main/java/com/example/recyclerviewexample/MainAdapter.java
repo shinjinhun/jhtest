@@ -40,8 +40,9 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
             @Override
             public void onClick(View v) {
                 String curName = holder.tv_name.getText().toString();
+                String curContent = holder.tv_content.getText().toString();
 
-                Toast.makeText(v.getContext(),curName,Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(),curName + " :" +  curContent,Toast.LENGTH_SHORT).show();
             }
         });
 
