@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    public long backBtnTime = 0;
+
     private Button btn_move;
     private EditText et_test;
     private String str;
@@ -51,5 +53,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public  void onBackPressed() {
+        long curTime = System.currentTimeMillis();
+        long gatTime = curTime - backBtnTime;
+
+        if(0 <= gatTime && 2000 >= gatTime) {   // 2초안에 백버튼 2번 연속 클릭시 앱 종료 실행
+            super.onBackPressed();
+        } else {
+            backBtnTime = curTime;
+            Toast.makeText(this,"한번 더 누르면 종료됩니다.",Toast.LENGTH_SHORT).show();
+        }
     }
 }
